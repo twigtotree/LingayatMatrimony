@@ -38,7 +38,7 @@ public class SignUpDetailsPagerAdapter extends FragmentPagerAdapter {
                 fragment = new FamilyDetailsFragment();
                 break;
             case 5 :
-                fragment = new PhotoUploadFragment(mApplicationContext);
+                fragment = new PhotoUploadFragment();
 
         }
         // getItem is called to instantiate the fragment for the given page.

@@ -41,11 +41,10 @@ public class PhotoUploadFragment extends android.support.v4.app.Fragment {
     ImageView userImage;
 
     public PhotoUploadFragment(){
+        mApplicationContext = getActivity().getApplicationContext();
     }
 
-    public PhotoUploadFragment(Context applicationContext) {
-        mApplicationContext = applicationContext;
-    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
