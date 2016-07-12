@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/basic_details_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/details_item_margin_top"
+                android:gravity="center_horizontal"
+                android:text="Basic Details"
+                android:textSize="@dimen/heading_text_size" />
+
+
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/details_item_margin_top"
+                android:hint="First Name"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:focusable="false" />
+
+
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/details_item_margin_top"
+                android:hint="Last Name"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:focusable="false" />
+
+
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/details_item_margin_top"
+                android:hint="Gender"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:focusable="false" />
+
+
+            <EditText
+                android:id="@+id/date_of_birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/details_item_margin_top"
+                android:hint="date of birth"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:focusable="false" />
+
+            <EditText
+                android:id="@+id/martial_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/details_item_margin_top"
+                android:hint="martial status"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:focusable="false" />
+
+            <EditText
+                android:id="@+id/place_of_residence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/details_item_margin_top"
+                android:hint="city of residence"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:focusable="false" />
+
+            <EditText
+                android:id="@+id/occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/details_item_margin_top"
+                android:hint="occupation"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:focusable="false" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
